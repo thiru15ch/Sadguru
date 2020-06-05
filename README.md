@@ -12,7 +12,7 @@ go to the below [link](http://127.0.0.1:5000/) to see the frontend of Sadguru's 
 
 It shows a button additem and when you click it will call the backend service that pop up the new item form to add item to the inventory.
 
-on click of add item values are saved in the Sadguru table in mysqldatabse and redirects to where list of items is displayed using GET method.
+on click of add item values are saved in the Sadguru table in [mysqldatabase](http://localhost/phpmyadmin/sql.php?db=sadguru&table=items&pos=0) and redirects to where list of items is displayed using GET method.
 
 upon click on the item name will call backend service that displays the item details alone.
 
