@@ -1,4 +1,4 @@
-# Sadguru
+# Sadguru's Amrut Tulya Tea Shop.
 
 Import the folder into Sublime Text
 
