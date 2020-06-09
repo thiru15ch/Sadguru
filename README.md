@@ -1,28 +1,23 @@
 # Sadguru's Amrut Tulya Tea Shop.
 
-Download the files from GIT to local
- Install python latest version
- Install sublime text editor
-
-set environment variables - 
+>> Download the project from github
+>> Install python latest version : [Windows x86-64 executable installer](https://www.python.org/downloads/release/python-377/)
+>> Install sublime text editor : [Click on Download For Windows](https://www.sublimetext.com/)
+>> Set the environment variables - 
 
 		<path installed>\Python\Python37\Scripts
 		<path installed>\Python\Python37
 		<path installed>\python\python37\lib\site-packages
 		
-
-install flask - (pip install flask) using CMD
-
-install forms module - pip install flask-wtf
-
-pip install flask_sqlalchemy
-
-pip install mysqlclient
+>> Install flask using CMD 'pip install flask'
+>> Install forms module using CMD 'pip install flask-wtf'
+>> Install sqlalchemy using CMD 'pip install flask_sqlalchemy'
+>> Install mysqlclient using CMD 'pip install mysqlclient'
 
 
-Download XAMPP and istall it for mysql db
+>> Download XAMPP and install it for mysql db
 
-In XAMPP control panel start apache and mysqldb. Then click on admin beside sql which redirects to phpmyadmin/mysqldb
+>> In XAMPP control panel start apache and mysqldb. Then click on admin beside sql which redirects to phpmyadmin/mysqldb
 
 	create a database name as 'sadguru'
 	create a table named 'items' - cretae below columns
@@ -35,13 +30,12 @@ In XAMPP control panel start apache and mysqldb. Then click on admin beside sql 
 	image_file(varchar)
 	
 	
-Finally go to CMD change the directory to where the project is located
+>> Finally open the command prompt in Windows & change the directory to where the project is located
 
-use the command - python app.py
+>> Type the command - python app.py
 
 	Now you will get a running on http://27.0.0.1:5000/
-	copy the link and paste it in browser to see sadguru's amrut tulya tea shop homepage.
- 
- 
 
-    
+>> Copy the above host link and paste it in browser to see 'Sadguru's Amrit Tulya Tea Shop' homepage.
+ 
+ 
