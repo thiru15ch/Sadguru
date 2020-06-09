@@ -1,22 +1,47 @@
 # Sadguru's Amrut Tulya Tea Shop.
 
-Import the folder into Sublime Text
+Download the files from GIT to local
+ Install python latest version
+ Install sublime text editor
 
-Created app.py for routing(where url binding to that function) and forms.py for form input
+set environment variables - 
 
-Different templates created that contain static data and rendered using Jinja template library
+		<path installed>\Python\Python37\Scripts
+		<path installed>\Python\Python37
+		<path installed>\python\python37\lib\site-packages
+		
 
-Run the app.py file in the command prompt where it says Running on http://127.0.0.1:5000/
+install flask - (pip install flask) using CMD
 
-go to the below [link](http://127.0.0.1:5000/) to see the frontend of Sadguru's Amrut tulya tea shop.
+install forms module - pip install flask-wtf
 
-It shows a button **Additem** and when you click it will call the backend service that pop up the new item form to add item to the inventory.
+pip install flask_sqlalchemy
 
-on click of additem,values are saved in the Sadguru table in [mysqldatabase](http://localhost/phpmyadmin/sql.php?db=sadguru&table=items&pos=0) and redirects to where list of items is displayed using GET method.
+pip install mysqlclient
 
-upon click on the item name will call backend service that displays the item details alone.
 
-Finally we have a **Delete** button that calls delete request where the item deleted from the frontend. But in the backend we set the status of item as '1'(as the records should not be actually deleted in the Database).
+Download XAMPP and istall it for mysql db
 
-The items with status 0 will be displayed every time on the frontend.
+In XAMPP control panel start apache and mysqldb. Then click on admin beside sql which redirects to phpmyadmin/mysqldb
+
+	create a database name as 'sadguru'
+	create a table named 'items' - cretae below columns
+
+	id(INT, PRIMARY) - check Auto Increment option(A_I)
+	name(text)
+	description(text)
+	price(int)
+	status(int)
+	image_file(varchar)
+	
+	
+Finally go to CMD change the directory to where the project is located
+
+use the command - python app.py
+
+	Now you will get a running on http://27.0.0.1:5000/
+	copy the link and paste it in browser to see sadguru's amrut tulya tea shop homepage.
+ 
+ 
+
     
